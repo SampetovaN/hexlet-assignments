@@ -7,9 +7,6 @@ import java.util.Map;
 // BEGIN
 class App {
 
-    public static void main(String[] args) {
-        System.out.println(toString(getWordCount("word text cat apple word map apple word")));
-    }
     public static Map<String, Integer> getWordCount(String sentence) {
         Map<String, Integer> map = new HashMap ();
         if(sentence.isEmpty()) {
